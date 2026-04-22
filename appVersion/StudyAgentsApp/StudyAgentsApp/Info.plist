@@ -40,7 +40,5 @@
         <string>UIInterfaceOrientationLandscapeLeft</string>
         <string>UIInterfaceOrientationLandscapeRight</string>
     </array>
-    <key>UIUserNotificationSettings</key>
-    <dict/>
 </dict>
 </plist>

@@ -12,10 +12,7 @@
 html { scroll-behavior: smooth; }
 
 body {
-  background:
-    radial-gradient(circle at top left, rgba(255, 77, 0, 0.12), transparent 34%),
-    radial-gradient(circle at top right, rgba(0, 166, 147, 0.09), transparent 28%),
-    #F5F0E8;
+  background: #F5F0E8;
   color: #111111;
   font-family: var(--font-body);
   -webkit-font-smoothing: antialiased;

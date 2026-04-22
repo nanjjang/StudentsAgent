@@ -34,9 +34,6 @@ struct HomeView: View {
             ZStack {
                 Color.cosmosBg.ignoresSafeArea()
 
-                // Gradient orbs
-                OrbBackground()
-
                 ScrollView(showsIndicators: false) {
                     VStack(spacing: 0) {
                         // ── Brand ──
@@ -47,12 +44,7 @@ struct HomeView: View {
                             VStack(spacing: 6) {
                                 Text("StudyAgents")
                                     .font(.system(size: 38, weight: .black, design: .rounded))
-                                    .foregroundStyle(
-                                        LinearGradient(
-                                            colors: [.cosmosOrange, .cosmosTeal],
-                                            startPoint: .leading, endPoint: .trailing
-                                        )
-                                    )
+                                    .foregroundColor(.cosmosText)
                                 Text("AI 기반 맞춤 학습 도우미")
                                     .font(.subheadline)
                                     .foregroundColor(.cosmosMuted)
@@ -128,13 +120,9 @@ struct HomeView: View {
                                 }
                                 .frame(maxWidth: .infinity)
                                 .padding(.vertical, 18)
-                                .background(
-                                    LinearGradient(colors: [.cosmosOrange, Color(hex: "FF9A5C")],
-                                                   startPoint: .leading, endPoint: .trailing)
-                                )
+                                .background(Color.cosmosOrange)
                                 .foregroundColor(.white)
                                 .clipShape(RoundedRectangle(cornerRadius: 16))
-                                .shadow(color: .cosmosOrange.opacity(0.4), radius: 16, y: 6)
                             }
 
                             Text("14개 과목 · Gemini 검색 · 맞춤 계획")
@@ -221,49 +209,20 @@ struct CosmosFeatureCard: View {
 
 struct GlowOrb: View {
     let size: CGFloat
-    @State private var pulse = false
 
     var body: some View {
         ZStack {
             Circle()
-                .fill(
-                    RadialGradient(
-                        colors: [Color.cosmosOrange.opacity(0.5), .clear],
-                        center: .center, startRadius: 0, endRadius: size
-                    )
-                )
+                .fill(Color.cosmosOrange.opacity(0.12))
                 .frame(width: size * 2, height: size * 2)
-                .scaleEffect(pulse ? 1.1 : 0.9)
-                .animation(.easeInOut(duration: 2).repeatForever(autoreverses: true), value: pulse)
 
             Image(systemName: "book.closed.fill")
                 .font(.system(size: size * 0.45))
-                .foregroundStyle(
-                    LinearGradient(colors: [.cosmosOrange, .cosmosTeal], startPoint: .topLeading, endPoint: .bottomTrailing)
-                )
+                .foregroundColor(.cosmosOrange)
         }
-        .onAppear { pulse = true }
     }
 }
 
-struct OrbBackground: View {
-    var body: some View {
-        ZStack {
-            Circle()
-                .fill(Color.cosmosOrange.opacity(0.08))
-                .frame(width: 300, height: 300)
-                .blur(radius: 60)
-                .offset(x: -100, y: -200)
-
-            Circle()
-                .fill(Color.cosmosTeal.opacity(0.06))
-                .frame(width: 250, height: 250)
-                .blur(radius: 50)
-                .offset(x: 120, y: 200)
-        }
-        .ignoresSafeArea()
-    }
-}
 
 struct LoadingView: View {
     @EnvironmentObject private var vm: StudyViewModel

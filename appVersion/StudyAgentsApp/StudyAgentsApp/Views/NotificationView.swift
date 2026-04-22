@@ -13,7 +13,6 @@ struct NotificationView: View {
     var body: some View {
         ZStack {
             Color.cosmosBg.ignoresSafeArea()
-            OrbBackground()
 
             ScrollView(showsIndicators: false) {
                 VStack(spacing: 16) {

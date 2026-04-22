@@ -6,7 +6,6 @@ struct MindMapView: View {
     var body: some View {
         ZStack {
             Color.cosmosBg.ignoresSafeArea()
-            OrbBackground()
 
             if vm.mindmapText.isEmpty {
                 CosmosEmptyState(

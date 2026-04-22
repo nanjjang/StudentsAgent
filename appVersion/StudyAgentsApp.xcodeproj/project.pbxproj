@@ -1,0 +1,396 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BB0010000000000000000001 /* StudyAgentsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0010000000000000000001 /* StudyAgentsApp.swift */; };
+		BB0010000000000000000002 /* StudyModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0010000000000000000002 /* StudyModels.swift */; };
+		BB0010000000000000000003 /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0010000000000000000003 /* APIService.swift */; };
+		BB0010000000000000000004 /* NotificationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0010000000000000000004 /* NotificationService.swift */; };
+		BB0010000000000000000005 /* StudyViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0010000000000000000005 /* StudyViewModel.swift */; };
+		BB0010000000000000000006 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0010000000000000000006 /* HomeView.swift */; };
+		BB0010000000000000000007 /* PurposeSubjectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0010000000000000000007 /* PurposeSubjectView.swift */; };
+		BB0010000000000000000008 /* SubjectInputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0010000000000000000008 /* SubjectInputView.swift */; };
+		BB0010000000000000000009 /* StudyContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0010000000000000000009 /* StudyContentView.swift */; };
+		BB001000000000000000000A /* StudyPlanView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA001000000000000000000A /* StudyPlanView.swift */; };
+		BB001000000000000000000B /* MindMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA001000000000000000000B /* MindMapView.swift */; };
+		BB001000000000000000000C /* NotificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA001000000000000000000C /* NotificationView.swift */; };
+		BB001000000000000000000D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA001000000000000000000D /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AA001000000000000000000E /* StudyAgentsApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StudyAgentsApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA0010000000000000000001 /* StudyAgentsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudyAgentsApp.swift; sourceTree = "<group>"; };
+		AA0010000000000000000002 /* StudyModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudyModels.swift; sourceTree = "<group>"; };
+		AA0010000000000000000003 /* APIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIService.swift; sourceTree = "<group>"; };
+		AA0010000000000000000004 /* NotificationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationService.swift; sourceTree = "<group>"; };
+		AA0010000000000000000005 /* StudyViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudyViewModel.swift; sourceTree = "<group>"; };
+		AA0010000000000000000006 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		AA0010000000000000000007 /* PurposeSubjectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PurposeSubjectView.swift; sourceTree = "<group>"; };
+		AA0010000000000000000008 /* SubjectInputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubjectInputView.swift; sourceTree = "<group>"; };
+		AA0010000000000000000009 /* StudyContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudyContentView.swift; sourceTree = "<group>"; };
+		AA001000000000000000000A /* StudyPlanView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudyPlanView.swift; sourceTree = "<group>"; };
+		AA001000000000000000000B /* MindMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MindMapView.swift; sourceTree = "<group>"; };
+		AA001000000000000000000C /* NotificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationView.swift; sourceTree = "<group>"; };
+		AA001000000000000000000D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AA001000000000000000000F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FF0010000000000000000003 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CC0010000000000000000001 /* StudyAgentsApp root */ = {
+			isa = PBXGroup;
+			children = (
+				CC0010000000000000000002 /* StudyAgentsApp */,
+				CC0010000000000000000007 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CC0010000000000000000002 /* StudyAgentsApp */ = {
+			isa = PBXGroup;
+			children = (
+				AA0010000000000000000001 /* StudyAgentsApp.swift */,
+				AA001000000000000000000F /* Info.plist */,
+				AA001000000000000000000D /* Assets.xcassets */,
+				CC0010000000000000000003 /* Models */,
+				CC0010000000000000000004 /* Services */,
+				CC0010000000000000000005 /* ViewModels */,
+				CC0010000000000000000006 /* Views */,
+			);
+			path = "StudyAgentsApp/StudyAgentsApp";
+			sourceTree = "<group>";
+		};
+		CC0010000000000000000003 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				AA0010000000000000000002 /* StudyModels.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		CC0010000000000000000004 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				AA0010000000000000000003 /* APIService.swift */,
+				AA0010000000000000000004 /* NotificationService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		CC0010000000000000000005 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				AA0010000000000000000005 /* StudyViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		CC0010000000000000000006 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				AA0010000000000000000006 /* HomeView.swift */,
+				AA0010000000000000000007 /* PurposeSubjectView.swift */,
+				AA0010000000000000000008 /* SubjectInputView.swift */,
+				AA0010000000000000000009 /* StudyContentView.swift */,
+				AA001000000000000000000A /* StudyPlanView.swift */,
+				AA001000000000000000000B /* MindMapView.swift */,
+				AA001000000000000000000C /* NotificationView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		CC0010000000000000000007 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AA001000000000000000000E /* StudyAgentsApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EE0010000000000000000001 /* StudyAgentsApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = GG0010000000000000000002 /* Build configuration list for PBXNativeTarget "StudyAgentsApp" */;
+			buildPhases = (
+				FF0010000000000000000001 /* Sources */,
+				FF0010000000000000000002 /* Resources */,
+				FF0010000000000000000003 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = StudyAgentsApp;
+			productName = StudyAgentsApp;
+			productReference = AA001000000000000000000E /* StudyAgentsApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DD0010000000000000000001 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					EE0010000000000000000001 = {
+						CreatedOnToolsVersion = 15.0;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = GG0010000000000000000001 /* Build configuration list for PBXProject "StudyAgentsApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CC0010000000000000000001;
+			productRefGroup = CC0010000000000000000007 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EE0010000000000000000001 /* StudyAgentsApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FF0010000000000000000002 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB001000000000000000000D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FF0010000000000000000001 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB0010000000000000000001 /* StudyAgentsApp.swift in Sources */,
+				BB0010000000000000000002 /* StudyModels.swift in Sources */,
+				BB0010000000000000000003 /* APIService.swift in Sources */,
+				BB0010000000000000000004 /* NotificationService.swift in Sources */,
+				BB0010000000000000000005 /* StudyViewModel.swift in Sources */,
+				BB0010000000000000000006 /* HomeView.swift in Sources */,
+				BB0010000000000000000007 /* PurposeSubjectView.swift in Sources */,
+				BB0010000000000000000008 /* SubjectInputView.swift in Sources */,
+				BB0010000000000000000009 /* StudyContentView.swift in Sources */,
+				BB001000000000000000000A /* StudyPlanView.swift in Sources */,
+				BB001000000000000000000B /* MindMapView.swift in Sources */,
+				BB001000000000000000000C /* NotificationView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		HH0010000000000000000001 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		HH0010000000000000000002 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		HH0010000000000000000003 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				"CODE_SIGNING_ALLOWED[sdk=iphonesimulator*]" = NO;
+				"CODE_SIGNING_REQUIRED[sdk=iphonesimulator*]" = NO;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = StudyAgentsApp/StudyAgentsApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.studyagents.app";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		HH0010000000000000000004 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				"CODE_SIGNING_ALLOWED[sdk=iphonesimulator*]" = NO;
+				"CODE_SIGNING_REQUIRED[sdk=iphonesimulator*]" = NO;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = StudyAgentsApp/StudyAgentsApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.studyagents.app";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		GG0010000000000000000001 /* Build configuration list for PBXProject "StudyAgentsApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				HH0010000000000000000001 /* Debug */,
+				HH0010000000000000000002 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		GG0010000000000000000002 /* Build configuration list for PBXNativeTarget "StudyAgentsApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				HH0010000000000000000003 /* Debug */,
+				HH0010000000000000000004 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+	};
+	rootObject = DD0010000000000000000001 /* Project object */;
+}
